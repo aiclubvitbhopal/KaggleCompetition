@@ -1,0 +1,255 @@
+.fullscreen-nav li a#desktop-menu ul li:not(:last-child) a {
+    position: relative;
+}
+
+#desktop-menu ul li:not(:last-child) a::after {
+    transition: all 0.5s ease;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: var(--jaune);
+    bottom: -10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#desktop-menu ul li:not(:last-child) a:hover::after,
+#desktop-menu ul li:not(:last-child).current-menu-item a::after {
+    width: 70%;
+    transition: all 0.5s ease;
+}
+
+#desktop-menu ul li:last-child a {
+    font-size: 16px;
+}
+
+.header-logo img {
+    max-width: 250px;
+}
+
+#desktop-menu ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+#desktop-menu ul li a {
+    color: white;
+    position: relative;
+}
+
+#desktop-menu ul li:not(:last-child) {
+    padding-right: 30px;
+}
+
+#desktop-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    padding: 0px 25px;
+    z-index: 9999;
+    position: relative;
+}
+
+.cercle {
+    background: var(--vert);
+    position: absolute;
+    top: -50vw;
+    right: -50vw;
+    border-radius: 100%;
+    width: 0;
+    height: 0;
+    transition: all 1s ease;
+    z-index: 15;
+}
+
+.bodyOpen .cercle {
+    width: calc(100vw * 2);
+    height: calc(100vh * 2);
+    transition: all 1s ease;
+}
+
+.header-icon:hover {
+    box-shadow: none;
+    transform: translate(7px, 10px);
+    transition: all 0.2s ease;
+}
+
+.header-icon {
+    border-color: var(--vert);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background: white;
+    box-shadow: 1px 1px 0px 0px var(--vert), 2px 2px 0px 0px var(--vert), 3px 3px 0px 0px var(--vert), 4px 4px 0px 0px var(--vert), 5px 5px 0px 0px var(--vert), 6px 6px 0px 0px var(--vert), 7px 7px 0px 0px var(--vert), 0px 3px 0px 0px var(--vert), 1px 4px 0px 0px var(--vert), 2px 5px 0px 0px var(--vert), 3px 6px 0px 0px var(--vert), 4px 7px 0px 0px var(--vert), 5px 8px 0px 0px var(--vert), 6px 9px 0px 0px var(--vert), 7px 10px 0px 0px var(--vert);
+    right: 20px;
+    height: 50px;
+    position: absolute;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    z-index: 999999;
+}
+
+.menu-span {
+    transform: scale(0.5);
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-icon span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background: var(--bleu);
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+.header-icon span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.header-icon span:nth-child(2) {
+    top: 15px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.header-icon span:nth-child(3) {
+    top: 30px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+}
+
+.bodyOpen .header-icon span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -3px;
+    left: 8px;
+}
+
+.bodyOpen {
+    overflow: hidden;
+}
+
+.bodyOpen .header-icon span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+}
+
+.bodyOpen .header-icon span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 33px;
+    left: 8px;
+}
+
+.header-logo {
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+
+.bodyOpen .header-logo {
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.bodyOpen .fullscreen-nav {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+}
+
+.bodyOpen .fullscreen-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    flex-direction: column;
+}
+
+.bodyOpen .fullscreen-nav .full-content,
+.bodyOpen .fullscreen-nav .menu-menu-principal-container,
+.bodyOpen .fullscreen-nav ul {
+    height: 100%;
+    transition: all 0.2s ease;
+}
+
+.bodyOpen .fullscreen-nav {
+    display: block;
+}
+
+.fullscreen-nav .full-content {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.bodyOpen .fullscreen-nav .full-content {
+    position: relative;
+    z-index: 20;
+    height: 100%;
+    opacity: 1;
+    transition: all 0.2s ease;
+    transition-delay: 0.5s;
+}
+
+.fullscreen-nav li a {
+    color: white;
+    font-size: 25px;
+}
+
+.fullscreen-nav li {
+    margin: 10px 0;
+}
+
+.fullscreen-nav li.push-btn {
+    box-shadow: none;
+    background: transparent;
+}
