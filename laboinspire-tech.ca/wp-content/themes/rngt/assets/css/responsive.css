@@ -3,42 +3,51 @@
         max-width: 250px;
         margin: 50px;
     }
+
     .accueil .actualites,
     .apropos .actualites {
         background-size: 30%;
     }
+
     .shape-1 {
         left: 40% !important;
     }
+
     .shape-2 {
         left: 10% !important;
     }
+
     .shape-3 {
         top: 60vh !important;
         width: 75px;
         left: 10% !important;
     }
+
     .shape-4 {
         top: 80vh !important;
         width: 150px;
         left: 30% !important;
     }
+
     .shape-5 {
         top: 20px !important;
         width: 100px;
         right: 40% !important;
         left: inherit !important;
     }
+
     .shape-6 {
         right: 10% !important;
         left: inherit !important;
     }
+
     .shape-7 {
         top: 60vh !important;
         width: 50px;
         right: 10% !important;
         left: inherit !important;
     }
+
     .shape-8 {
         top: 80vh !important;
         width: 150px;
@@ -48,6 +57,7 @@
 }
 
 @media only screen and (min-width:1500px) {
+
     .banner:not(.hero),
     .banner:not(.hero) .formes-wrapper {
         min-height: 700px;
@@ -56,24 +66,30 @@
 }
 
 @media only screen and (min-width:1200px) {
+
     .accueil .actualites,
     .apropos .actualites {
         background-size: 60%;
     }
+
     .header-icon {
         display: none;
     }
+
     .hero h1 {
         width: 55%;
         margin: auto;
     }
+
     h2 {
         font-size: 45px;
         margin-bottom: 50px;
     }
+
     h1 {
         font-size: 60px;
     }
+
     .infolettre-wrapper {
         min-height: 500px !important;
     }
@@ -83,9 +99,11 @@
     .hero.banner .square-wrapper {
         height: calc(100/33*10vw);
     }
+
     .partenaires img {
         margin: 50px;
     }
+
     .infolettre-wrapper .col-lg-7 svg {
         padding-right: 30px;
     }
@@ -107,28 +125,36 @@
     .accueil [data-grid] [data-grid-row-line] {
         margin-bottom: calc(100/32*2vw - 1px);
     }
+
     .accueil [data-grid] [data-grid-col-line] {
         margin-right: calc(100/32*2vw - 1px);
     }
+
     .hero .square-wrapper {
         height: calc(100/18*10vw);
     }
+
     .projets .banner .shape-2 {
         top: 10vh !important;
     }
+
     .projets .banner .shape-3 {
         top: 20vh !important;
         left: 12% !important;
     }
+
     .projets .banner .shape-6 {
         top: 25vh !important;
     }
+
     .echanges .banner .shape-3 {
         left: 10% !important;
     }
+
     .echanges .banner .shape-4 {
         left: 8% !important;
     }
+
     .echanges .banner .shape-5 {
         top: 5vh !important;
     }
@@ -138,9 +164,11 @@
     .hero.banner .shape-5 {
         top: 150px !important;
     }
+
     .hero.banner .shape-1 {
         top: 250px !important;
     }
+
     .hero.banner .shape-8 {
         right: 20% !important;
     }
@@ -151,9 +179,11 @@
         padding-right: 20px;
         padding-left: 20px;
     }
+
     .mission .row .col-lg-6:first-child {
         padding-right: 20px;
     }
+
     .mission .row .col-lg-6:last-child {
         padding-left: 20px;
     }
@@ -164,42 +194,54 @@
         font-size: 22px;
         margin-bottom: 50px;
     }
+
     .infolettre-wrapper .col-lg-7 {
         display: flex;
         align-items: center;
         justify-content: center;
     }
+
     .infolettre-wrapper .col-lg-7 svg {
         max-width: 80%;
     }
+
     .infolettre-wrapper .col-lg-7 svg {
         margin-bottom: 50px;
     }
+
     .banner .square-wrapper {
         height: calc(100/45*10vw);
     }
+
     .membres-principaux img {
         margin-bottom: 50px;
     }
+
     .membres-collaborateurs .membre {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
     .actualites {
         padding-top: 50px !important;
     }
+
     .actualites .row {
         padding-top: 0;
     }
+
     .echanges .echanges-logo img {
         padding-bottom: 50px;
     }
+
     .hero .square-wrapper {
         height: calc(100/14*10vw);
     }
+
     .accueil [data-grid] [data-grid-col-line] {
         margin-right: calc(100/25*2vw - 1px);
     }
+
     .accueil [data-grid] [data-grid-row-line] {
         margin-bottom: calc(100/25*2vw - 1px);
     }
@@ -209,103 +251,126 @@
     footer .coordonnes p {
         font-size: 16px;
     }
+
     .membres-collaborateurs .membre a {
         justify-content: space-between;
         flex-direction: row;
     }
+
     .membres-collaborateurs .membre a>div {
         width: fit-content;
     }
+
     .infolettre-wrapper {
         height: 600px !important;
     }
 }
 
 @media only screen and (max-width:768px) {
+
     .contact-form,
     footer .coordonnes {
         width: 100% !important;
     }
+
     .row {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
     .infolettre-wrapper {
         min-height: 500px !important;
     }
+
     footer>.container .row {
         padding-top: 0;
     }
+
     .infolettre-wrapper .row {
         padding-top: 0;
         padding-bottom: 0;
     }
+
     .infolettre-wrapper .mc4wp-form .arrow-btn {
         transform: scale(0.6) rotate(-90deg);
         top: -5px;
     }
+
     .hero .col-8 {
         width: 80%;
     }
+
     footer .container .row {
         flex-direction: column-reverse;
     }
+
     footer .coordonnes {
         padding-top: 50px;
     }
+
     footer .row.copyright {
         flex-direction: column;
         padding-top: 20px;
     }
+
     .shape-1 {
         top: 20px !important;
         width: 50px;
         left: 30% !important;
     }
+
     .shape-2 {
         top: 20vh !important;
         width: 100px;
         left: 8% !important;
     }
+
     .shape-3 {
         top: 60vh !important;
         width: 75px;
         left: 5% !important;
     }
+
     .shape-4 {
         top: 80vh !important;
         width: 150px;
         left: 10% !important;
     }
+
     .shape-5 {
         top: 20px !important;
         width: 100px;
         right: 30% !important;
         left: inherit !important;
     }
+
     .shape-6 {
         top: 20vh !important;
         width: 75px;
         right: 5% !important;
         left: inherit !important;
     }
+
     .shape-7 {
         top: 60vh !important;
         width: 50px;
         right: 10% !important;
         left: inherit !important;
     }
+
     .shape-8 {
         top: 80vh !important;
         width: 150px;
         right: 10% !important;
         left: inherit !important;
     }
+
     .news-card,
     .membres-stagiaires .membre {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
     #girl {
         margin-top: 100px;
     }
@@ -321,67 +386,86 @@
     .infolettre-wrapper {
         min-height: 400px !important;
     }
+
     section {
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
     .membres-stagiaires .membre img,
     .membres-stagiaires .membre .image {
         min-height: 400px;
     }
+
     #membre-2 .img span {
         top: -50px;
         left: 0;
     }
+
     h2 {
         font-size: 30px;
     }
+
     .etudiants .panel-title {
         width: 90%;
     }
+
     .formes-wrapper {
         display: none;
     }
+
     .hero .col-8 {
         width: 100%;
     }
+
     .hero .row.text-center.mt-50 {
         margin-top: 0 !important;
     }
+
     .row {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+
     .accueil .apropos .row:last-child {
-        padding-top: 100px;
+        padding-top: 0px;
     }
+
     .accueil .actualites {
         background-size: 199.5%;
     }
+
     footer .contact-wrapper h2 br {
         display: none;
     }
+
     .banner:not(.hero) .square-wrapper {
         height: calc(100/25*10vw);
     }
+
     .banner:not(.hero) .square-wrapper [data-grid] [data-grid-col-line] {
         margin-right: calc(100/25*2vw - 1px);
     }
+
     .banner:not(.hero) .square-wrapper [data-grid] [data-grid-row-line] {
         margin-bottom: calc(100/25*2vw - 1px);
     }
+
     .banner:not(.hero),
     .banner:not(.hero) .formes-wrapper {
         min-height: 400px;
         padding-top: 50px;
         height: 400px !important;
     }
+
     .hero .square-wrapper {
         height: calc(100/8*10vw);
     }
+
     .accueil [data-grid] [data-grid-col-line] {
         margin-right: calc(100/15*2vw - 1px);
     }
+
     .accueil [data-grid] [data-grid-row-line] {
         margin-bottom: calc(100/14*2vw - 1px);
     }
@@ -389,12 +473,15 @@
 
 @media only screen and (min-width:500px) {
     .header-logo img {
-        max-width: 20px; /*yahan change kara*/
+        max-width: 20px;
+        /*yahan change kara*/
     }
+
     footer .copyright {
         display: flex;
         justify-content: center;
     }
+
     footer .copyright p {
         width: auto;
     }
