@@ -434,7 +434,7 @@ img {
 
 [data-grid][data-grid-full] [data-grid-col-line]:first-child,
 [data-grid][data-grid-left] [data-grid-col-line]:first-child {
-    margin-left: calc(100/32)*2vw);
+    margin-left: calc(100/32) * 2vw);
 }
 
 [data-grid] [data-grid-col-line] {
@@ -1177,7 +1177,7 @@ footer {
 
 .copyright p,
 .copyright a {
-    font-size: 12px;
+    font-size: 18px;
     color: white;
 }
 
