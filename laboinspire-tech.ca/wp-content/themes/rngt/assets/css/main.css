@@ -1278,7 +1278,7 @@ textarea {
     margin: 50px auto;
 }
 
-.prize h1{
+.prize .container h1{
     text-align: center;
     font-weight: bold;
     /* color: ; */
@@ -1296,20 +1296,19 @@ textarea {
     margin: 20px auto 5px;
 }
 
-.col-md-4{
+/* .col-md-4{
     margin: 40px auto;
-}
+} */
 
-.profile{
+.prize-profile{
     
     background-color: #efefef;
     border-radius: 12px;
     transition: all 0.5s ease-in-out;
-    
-    
 }
 
-.profile img{
+.prize-profile img{
+    width: 76%;
     top: 220px;
     
 }
@@ -1322,16 +1321,29 @@ textarea {
     margin-right: auto;
 }
 
-.profile h3{
+.prize-profile h3{
     font-size: 20px;
     margin-top: 15px;
     min-width: 200px;
     text-align: center;
+    
 }
 
-.profile:hover{
+.prize-profile:hover{
     box-shadow: 0 0 10px 10px rgba(0,0,0,0.1);
     cursor: pointer;
+}
+
+.date img{
+    width: 30px !important;
+}
+
+.prize-card .prize-text h3{
+    color: black;
+}
+
+.perks {
+    width: 76%;
 }
 
 @media only screen and (max-width: 780px){
