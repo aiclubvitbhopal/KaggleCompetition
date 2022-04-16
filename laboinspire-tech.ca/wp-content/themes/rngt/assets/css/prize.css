@@ -2,6 +2,21 @@
     .prize-card:nth-of-type(1) { order:2; }
     .prize-card:nth-of-type(2) { order:1; }
     .prize-card:nth-of-type(3) { order:3; }
+
+    .prize .container .row .prize-card .prize-profile{
+        width: 65%;
+        /* align-items: center !important;
+        justify-content: center !important; */
+        margin: auto !important;
+    }
+
+
+    .prize .container .row .prize-card .prize-profile img{
+        width: 40% !important;
+        /* box-shadow: 0px 1px 0px 0px !important; */
+        /* border-radius: 0 !important; */
+        margin-top: 0 !important;
+    }
 }
 
 .prize h1::after{
