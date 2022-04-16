@@ -1,7 +1,7 @@
 <p align="center"><a href="https://aiclub.aivit.tech/" target="_blank"><img height="" src="https://raw.githubusercontent.com/aiclubvitbhopal/KaggleCompetition/main/media/Ai%20Club%20Logo%20(2).png" title="AI-club" alt="AI-club"></a>
 </p>
 
-# KAGGLE CHALLENGE
+# KAGGLE CHALLENGE!
 **Contents:**
   - [About](#img-height"30"-src"httpscdn-iconsflaticoncompng5123815premium3815602pngtokenexp1650098244hmacc731ff31ebd5cb62cce82ebd8bf4826f"-about)
   - [Development](#img-width"35"-src"httpscdn-iconsflaticoncompng5123242premium3242257pngtokenexp1650097509hmac80b80a34ed520fccf32b79144c07bd5f"-development)
